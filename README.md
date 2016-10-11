@@ -19,6 +19,7 @@ This plugin is licensed under the MITlicense by Elsa Rodriguez Plaza
 ```
 
 ```JavaScript
+var pref = require("nativescript-android-preferences");
 onTapString = function () {
         var options = {
             datavalue: "StringPreference",

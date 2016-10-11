@@ -1,6 +1,6 @@
 {
   "name": "nativescript-android-preferences",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NativeScript plugin that allows to use the application's preferences on Android.",
   "main": "android-preferences.js",
   "typings": "index.d.ts",
