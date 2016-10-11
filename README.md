@@ -8,7 +8,7 @@ This plugin is licensed under the MITlicense by Elsa Rodriguez Plaza
 `tns plugin add nativescript-android-preferences`
 
 ## Usages
- For more details on how to use this plugins, please take a look at the demo application
+ For more details on how to use this plugin, take a look at the demo application
  ```XML
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
   <StackLayout>
