@@ -1,19 +1,33 @@
 # NativeScript-Android-preferences
 A NativeScript plugin that allows to use the application's preferences on Android.
 
-Fill in a little about your plugin!
-
 ## License
 This plugin is licensed under the MITlicense by Elsa Rodriguez Plaza
 
 ## Installation
-To install type
-
-```
-tns plugin add nativescript-android-preferences
-```
+`tns plugin add nativescript-android-preferences`
 
 ## Usages
+ For more details on how to use this plugins, please take a look at the demo application
+ ```XML
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <StackLayout>
+    <Label text="Android App Save Preferences" class="title"/>
+    <Button text="Save String" tap="{{ onTapString }}" />
+  </StackLayout>
+</Page>
+```
 
-## Example
+```JavaScript
+onTapString = function () {
+        var options = {
+            datavalue: "StringPreference",
+            datatype: pref.DataTypes.STRING,
+            prefname: "String_Preference"
+        }
+        pref.SavePreference(options);
+        options.datavalue = "DefStringPreference";
+        alert("String Preference saved:"+pref.GetPreference(options));
+    }
+```
 
