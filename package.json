@@ -1,0 +1,44 @@
+{
+  "name": "nativescript-android-preferences",
+  "version": "1.0.0",
+  "description": "A NativeScript plugin that allows to use the application's preferences on Android.",
+  "main": "android-preferences.js",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsamrodco/nativescript-android-preferences.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "android-preferences",
+    "NativeScript",
+    "native",
+    "script",
+    "android",
+    "custom",
+    "preferences",
+    "SharedPreferences",
+    "persistent",
+    "storage"
+  ],
+  "author": "Elsa Rodriguez Plaza <elsamrodco@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elsamrodco/nativescript-android-preferences/issues"
+  },
+  "homepage": "https://github.com/elsamrodco/nativescript-android-preferences",
+  "scripts": {
+    "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "debug.ios": "npm run preparedemo && cd demo && tns debug ios --emulator",
+    "debug.android": "npm run preparedemo && cd demo && tns debug android --emulator",
+    "preparedemo": "cd demo && tns plugin remove nativescript-android-preferences && tns plugin add .. && tns install",
+    "setup": "cd demo && npm install && tns plugin add .. && cd ..",
+    "start": "npm run demo.ios"
+  }
+}

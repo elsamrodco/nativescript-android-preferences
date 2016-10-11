@@ -1,0 +1,56 @@
+{
+  "name": "nativescript-android-preferences",
+  "version": "1.0.0",
+  "description": "A NativeScript plugin that allows to use the application's preferences on Android.",
+  "main": "android-preferences.js",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsamrodco/nativescript-android-preferences.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "android-preferences",
+    "NativeScript",
+    "native",
+    "script",
+    "android",
+    "custom",
+    "preferences",
+    "SharedPreferences",
+    "persistent",
+    "storage"
+  ],
+  "author": {
+    "name": "Elsa Rodriguez Plaza",
+    "email": "elsamrodco@gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/elsamrodco/nativescript-android-preferences/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/elsamrodco/nativescript-android-preferences/issues"
+  },
+  "homepage": "https://github.com/elsamrodco/nativescript-android-preferences",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "debug.ios": "npm run preparedemo && cd demo && tns debug ios --emulator",
+    "debug.android": "npm run preparedemo && cd demo && tns debug android --emulator",
+    "preparedemo": "cd demo && tns plugin remove nativescript-android-preferences && tns plugin add .. && tns install",
+    "setup": "cd demo && npm install && tns plugin add .. && cd ..",
+    "start": "npm run demo.ios"
+  },
+  "readme": "# NativeScript-Android-preferences\r\nA NativeScript plugin that allows to use the application's preferences on Android.\r\n\r\nFill in a little about your plugin!\r\n\r\n## License\r\nThis plugin is licensed under the MITlicense by Elsa Rodriguez Plaza\r\n\r\n## Installation\r\nTo install type\r\n\r\n```\r\ntns plugin add nativescript-android-preferences\r\n```\r\n\r\n## Usages\r\n\r\n## Example\r\n\r\n",
+  "_id": "nativescript-android-preferences@1.0.0",
+  "_shasum": "c495cf5e3dc9e78a403b8825997cc42c84f515b4",
+  "_from": "..",
+  "_resolved": "file:.."
+}

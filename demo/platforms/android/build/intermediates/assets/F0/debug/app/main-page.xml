@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <StackLayout>
+    <Label text="Android App Save Preferences" class="title"/>
+    <Button text="Save Boolean" tap="{{ onTapBool }}" />
+    <Button text="Save Float" tap="{{ onTapFloat }}" />
+    <Button text="Save Integer" tap="{{ onTapInteger }}" />
+    <Button text="Save Long  " tap="{{ onTapLong }}" />
+    <Button text="Save String" tap="{{ onTapString }}" />
+  </StackLayout>
+</Page>
